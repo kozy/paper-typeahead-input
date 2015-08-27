@@ -172,7 +172,7 @@ If you want to save it in bower.json file, remember to add flag --save
           ptinput._suggestions = [];
         }
       });
-      var input = this.querySelector('paper-input');
+      var input = Polymer.dom(this.root).querySelector('paper-input');
       input.$.input.autocomplete = 'address-level4';
     },
 
